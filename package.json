@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AlexZeitler/AspNetCoreMvcTemplate.git"
+    "url": "git+https://github.com/AlexZeitler/AspNetCoreMvcValidationTemplate.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AlexZeitler/AspNetCoreMvcTemplate/issues"
+    "url": "https://github.com/AlexZeitler/AspNetCoreMvcValidationTemplate/issues"
   },
-  "homepage": "https://github.com/AlexZeitler/AspNetCoreMvcTemplate#readme",
+  "homepage": "https://github.com/AlexZeitler/AspNetCoreMvcValidationTemplate#readme",
   "devDependencies": {
     "@commitlint/cli": "^16.2.3",
     "@commitlint/config-conventional": "^16.2.1",

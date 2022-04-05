@@ -22,7 +22,7 @@ It contains
 
 ```
 yarn install
-cd src/AspNetCoreMvc
+cd src/AspNetCoreMvcValidation
 yarn install
 ```
 
@@ -56,18 +56,18 @@ Browse https://localhost:5001
 
 Of course, you want to rename the projects files to match our needs.
 
-You can use these commands, e.g. `AspNetCoreMvc`  gets renamed to `MyApp`:
+You can use these commands, e.g. `AspNetCoreMvcValidation`  gets renamed to `MyApp`:
 
 ### Rename all references inside the files
 
 ```bash
-LC_ALL=C find . -type f -name '*.*' -not \( -path './node_modules/*' -o -path './src/AspNetCoreMvc/node_modules/*' -o -path './assets' \) -exec sed -i '' 's|AspNetCoreMvc|MyApp|g' {} \;
+LC_ALL=C find . -type f -name '*.*' -not \( -path './node_modules/*' -o -path './src/AspNetCoreMvcValidation/node_modules/*' -o -path './assets' \) -exec sed -i '' 's|AspNetCoreMvcValidation|MyApp|g' {} \;
 ```
 
 ### Rename files and folders
 
 ```bash
-find . -depth -name "*AspNetCoreMvc*" | \
-while IFS= read -r ent; do mv $ent ${ent%AspNetCoreMvc*}MyApp${ent##*AspNetCoreMvc}; done
+find . -depth -name "*AspNetCoreMvcValidation*" | \
+while IFS= read -r ent; do mv $ent ${ent%AspNetCoreMvcValidation*}MyApp${ent##*AspNetCoreMvcValidation}; done
 
 ```

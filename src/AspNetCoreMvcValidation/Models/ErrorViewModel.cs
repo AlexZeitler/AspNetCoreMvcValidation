@@ -1,4 +1,4 @@
-namespace AspNetCoreMvc.Models;
+namespace AspNetCoreMvcValidation.Models;
 
 public class ErrorViewModel
 {

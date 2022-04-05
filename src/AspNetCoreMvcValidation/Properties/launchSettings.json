@@ -8,7 +8,7 @@
     }
   },
   "profiles": {
-    "AspNetCoreMvc": {
+    "AspNetCoreMvcValidation": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
